@@ -7,6 +7,7 @@ const Navbar = () => {
   const isMobile = useIsMobile();
   const [menuOpen, setMenuOpen] = useState(false);
   
+  
   return (
     <nav className="absolute bg-white top-10 left-5 right-5 z-50 p-4 md:p-6">
       <div className="container mx-auto ">
